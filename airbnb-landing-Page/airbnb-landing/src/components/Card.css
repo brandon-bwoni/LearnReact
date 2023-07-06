@@ -1,0 +1,21 @@
+.card {
+  width: 175px;
+  font-size: 14px;
+  padding: 24px;
+}
+
+.card_image {
+  position: absolute;
+  width: 140px;
+  height: 235px;
+  border-radius: 9px;
+}
+
+.card_stats {
+  display: flex;
+  align-items: center;
+}
+
+.card_star{
+  height: 14px;
+}
