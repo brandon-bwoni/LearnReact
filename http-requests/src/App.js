@@ -13,7 +13,7 @@ function App() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch('https://movies-cdfb3-default-rtdb.asia-southeast1.firebasedatabase.app/movies.json');
+      const response = await fetch('url');
       if (!response.ok) {
         throw new Error('Something went wrong!');
       }
